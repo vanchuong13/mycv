@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    width: 45vw;
+    margin: 0 auto;
+}
+
+.container {
+    background-color: #f9f4ef;
+    padding: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+p {
+    font-size: 0.8em;
+}
+
+.heading-info {
+    display: flex;
+    gap: 40px;
+    margin-bottom: 35px;
+    align-items: center;
+}
+
+.heading-info--avatar img {
+    max-width: 100%;
+    width: 111px;
+    height: 111px;
+    border-radius: 50%;
+}
+.heading-info--name h1 {
+    color: rgb(210 89 2);
+}
+
+.heading-info--name h3 {
+    margin-top: 8px;
+    color: black;
+}
+
+.title-info {
+    color: rgb(210 89 2);
+    font-weight: 700;
+}
+
+.detail-info {
+    display: flex;
+    gap: 20px;
+}
+
+.detail-info--link {
+    margin-top: 20px;
+    list-style-type: none;
+}
+
+.detail-info--link li {
+    margin-bottom: 7px;
+}
+
+.detail-info--link li i {
+    color: rgb(210 89 2);
+}
+
+.detail-info--link li a {
+    color: rgb(210 89 2);
+}
+
+.detail-info--left > div {
+    margin-bottom: 30px;
+    width: 100%;
+}
+
+.detail-info--skill ul {
+    margin-left: 22px;
+}
+.detail-info--experience h3 {
+    align-items: center;   
+}
+.detail-info--experience h3 {
+    color: rgb(210 89 2);
+}
+/* .detail-info--realbirth {
+    display: flex;
+    gap: 18px;
+    margin-bottom: 10px;
+    align-items: center;   
+} */
+.detail-info--right {
+    display: flex;
+    gap: 40px;
+    margin-bottom: 35px;
+    align-items: center; 
+    width: 50%;  
+}
+ .detail-info--role {
+    display: flex;
+    gap: 40px;
+    padding-top: 20px;
+ }
+
+ .detail-info--anh {
+    list-style-type: none; 
+    color: rgb(210 89 2);
+    font-size: 40px;
+ }
+
+.title-info--ttlh {
+    padding-bottom: 10px;
+    color: rgb(210 89 2);
+}
+
+@media screen and (max-width: 767px) {
+    body {
+        width: 100%;
+    }
+    .container {
+        padding: 10px;
+    }
+    .heading-info {
+        flex-direction: column;
+    }
+    .detail-info {
+        flex-direction: column;
+    }
+    .detail-info > div {
+        width: 100%;
+    }
+}
