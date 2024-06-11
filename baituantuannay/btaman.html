@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Btaman</title>
+</head>
+<body>
+    <div class="container">
+ <h1> Quản lý hóa đơn điện trong gia đình </h1>
+   <div class="input">
+        <label for="dauthang">Chỉ số điện đầu tháng:</label>
+        <input type="text" id="dauthang">
+   </div>
+
+   <div class="input">
+       <label for="cuoithang">Chỉ số điện cuối tháng:</label>
+       <input type="text" id="cuoithang">
+   </div>
+
+   <div class="input">
+      <lable for="sudung">Số chữ điện đã suẻ dụng:</lable>
+       <input type="text" id="sudung">
+   </div>
+
+   <div class="input">
+       <label for="vat">Thuế VAT:</label>
+       <input type="text" id="vat">
+   </div>
+
+   <div class="input">
+       <label for="tong">Tổng tiền thanh toán:</label>
+       <input type="text" id="tong">
+</div>
+
+<div class="input_btn">
+    <button type="button" id="Check">Check bill</button>
+    <button type="button" id="Clear">Clear</button>
+</div>
+
+<div class="showoff">
+   <h2> Những thông tin đã nhập </h2>
+   <p id="labeldauthang"></p>
+   <p id="labelcuoithang"></p>
+   <p id="labelsudung"></p>
+   <p id="labelvat"></p>
+   <p id="labeltong"></p>
+
+</div>
+
+
+
+    </div>
+</body>
+<script src="btaman.js"></script>
+</html>
